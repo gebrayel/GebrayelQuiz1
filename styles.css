@@ -7,3 +7,39 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+}
+.carrusel{
+    width: 95%;
+    margin: auto;
+   
+
+    animation: slide 20s infinite alternate;
+}
+.carrusel ul{
+    display: flex;
+    padding: 0;
+    width: 315.7%;
+    height: 100%;
+}
+.carrusel li{
+    list-style: none;
+    width: 100%;
+}
+.carrusel img{
+    width: 100%;
+}
+@keyframes slide {
+    0% {margin-left: 0;}
+    30% {margin-left: 0;}
+
+    33.33% {margin-left: -100%}
+    63.33% {margin-left: -100%}
+
+    66.66%  {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
