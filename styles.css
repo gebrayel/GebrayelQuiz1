@@ -29,6 +29,7 @@ body{
 }
 .carrusel img{
     width: 100%;
+
 }
 @keyframes slide {
     0% {margin-left: 0;}
@@ -93,4 +94,49 @@ body{
 
 .spread{
     transform: translate(0);
+}
+
+.contenedor-experiencia{
+    display: flex;
+    justify-content: space-between;
+}
+.subtitulo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    Color: #3e0fac;
+    
+}
+.title{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: #b490ca;
+    
+}
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #5ee7df 0%, #713596 100%);
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 35%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+.specs{
+    margin-left: 20px;
+}
+.fact{
+    font-weight: 700;
+}
+
+#clic{
+    color: #b490ca;
+    text-decoration: none;
+    font-weight: bold;
 }
