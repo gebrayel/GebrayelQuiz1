@@ -149,6 +149,7 @@ body{
 }
 #acerca-mi{
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    Color: #3e0fac;
 }
 .contenedor{
     width: 90%;
@@ -177,6 +178,7 @@ body{
 .proyectos{
     box-shadow: 0 0 10px black;
     border-radius: 12px;
+    
 }
 .derecha{
     display: flex;
