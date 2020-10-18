@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+:root{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -133,10 +136,45 @@ body{
 }
 .fact{
     font-weight: 700;
+    margin-left: -12.5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 #clic{
     color: #b490ca;
     text-decoration: none;
     font-weight: bold;
+}
+#acerca-mi{
+    background-color: #d5e1eeb6;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 40px 10px;
+}
+.img-experience{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 6px black;
+    
+    
+}
+.contenedor-acerca-mi{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img-geb{
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+}
+.proyectos{
+    box-shadow: 0 0 10px black;
+    border-radius: 12px;
 }
