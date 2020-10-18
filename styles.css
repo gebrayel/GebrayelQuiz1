@@ -143,13 +143,13 @@ body{
 }
 
 #clic{
-    color: #b490ca;
+    color: rgb(180, 144, 202);
     text-decoration: none;
     font-weight: bold;
 }
 #acerca-mi{
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-    Color: #3e0fac;
+    Color: rgb(62, 15, 172);
 }
 .contenedor{
     width: 90%;
@@ -195,4 +195,11 @@ body{
 .lii{
     list-style: none;
 }
-
+#grafica{
+    width: 100% !important;
+    height: 50% !important;
+}
+#skills{
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    width: 100%;
+}
