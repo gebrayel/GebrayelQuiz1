@@ -118,11 +118,40 @@
                     <script src = "Graficos.js"></script>
                 </div>
         </section>
-        <section class="contenedor" id="contactame">CONTACTAME</section>
+        <section class="contenedor" id="contactame">
+            <div>
+                <h2 class="subtitulo">CONTACTAME</h2>
+            </div>
+            <form method="get" onsubmit=" return funciona(this);">
+        
+                <input id="name" type="text" onblur="validar(this)" ; class="campos" placeholder="INGRESE SU NOMBRE"> </input>
+                <br>
+                <input id="email" type="text" onblur="validar(this)" ; class="campos" placeholder="INGRESE SU CORREO"> </input>
+                <br>
+                <input id="mensage" type="text" onblur="validar(this)" ; class="campos" placeholder="MENSAJE"> </input>
+                <br>
+                <input type="submit" class="campos"> </input>
+            </form>
+            <div class="redes">
+                <div class="social-media">
+                    <a href="https://wa.me/+584129861699" class= "social-media-icon" target="_blank">
+                        <i class='bx bxl-whatsapp-square' ></i>
+                    </a>
+                    
+                    <a href="https://twitter.com/IceGeb16" class= "social-media-icon" target="_blank">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="https://www.instagram.com/icgeb/?hl=es-la" class= "social-media-icon" target="_blank">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
         
         
     </main>
     <script src="main.js"></script>
     
+    <footer></footer>
 </body>
 </html>

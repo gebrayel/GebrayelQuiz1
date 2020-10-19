@@ -203,3 +203,50 @@ body{
     background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     width: 100%;
 }
+#contactame{
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+    Color: rgb(62, 15, 172);
+    width: 100%;
+    height: 100%;
+}
+
+.cuadros{    
+    background: #fff;
+    color: #000;
+    border: #3e0fac 2px;
+    height: 30px;
+
+}
+
+.problema{
+
+    color: #000;
+    border: 1px solid red;
+    height: 30px;
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    
+}
+.social-media-icon{
+    font-size: 50px;
+    Color: rgb(62, 15, 172);
+    
+}
+.social-media{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.campos{
+    height: 50px;
+    cursor: pointer;
+}
